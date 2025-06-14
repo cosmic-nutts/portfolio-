@@ -114,14 +114,14 @@ const CursorStars = () => {
       {stars.map(star => (
         <div
           key={star.id}
-          className="absolute rounded-full bg-gradient-to-r from-blue-300 to-purple-300 animate-pulse"
+          className="absolute rounded-full bg-gradient-to-r from-galaxy-light to-galaxy-blue animate-pulse"
           style={{
             left: star.x - star.size / 2,
             top: star.y - star.size / 2,
             width: star.size,
             height: star.size,
             opacity: star.opacity,
-            boxShadow: `0 0 ${star.size * 2}px rgba(147, 197, 253, 0.5)`,
+            boxShadow: `0 0 ${star.size * 2}px rgba(224, 231, 255, 0.5)`,
             transition: 'all 0.1s ease-out'
           }}
         />

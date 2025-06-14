@@ -11,14 +11,14 @@ import CursorStars from './components/CursorStars';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white relative overflow-hidden">
+    <div className="min-h-screen bg-galaxy-dark text-white relative overflow-hidden">
       {/* Deep Galaxy Background */}
-      <div className="fixed inset-0 bg-gradient-to-br from-purple-950 via-indigo-950 to-slate-950 pointer-events-none" />
-      <div className="fixed inset-0 bg-gradient-to-t from-purple-900/30 via-transparent to-indigo-900/20 pointer-events-none" />
+      <div className="fixed inset-0 bg-gradient-to-br from-galaxy-primary via-galaxy-secondary to-galaxy-dark pointer-events-none" />
+      <div className="fixed inset-0 bg-gradient-to-t from-galaxy-accent/30 via-transparent to-galaxy-blue/20 pointer-events-none" />
       
       {/* Animated Galaxy Stars Background */}
       <div className="fixed inset-0 pointer-events-none">
-        {[...Array(100)].map((_, i) => (
+        {[...Array(120)].map((_, i) => (
           <div
             key={i}
             className="absolute w-0.5 h-0.5 bg-white rounded-full animate-pulse"

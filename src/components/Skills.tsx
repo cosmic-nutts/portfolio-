@@ -27,14 +27,14 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-20 relative">
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-indigo-900/20" />
+      <div className="absolute inset-0 bg-gradient-to-r from-galaxy-accent/20 to-galaxy-secondary/20" />
       
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-purple-300 to-blue-300 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-galaxy-light to-galaxy-blue bg-clip-text text-transparent">
             Technical Constellation
           </h2>
-          <p className="text-xl text-purple-100 max-w-2xl mx-auto">
+          <p className="text-xl text-galaxy-light max-w-2xl mx-auto">
             A diverse skill set spanning data analysis, web development, and modern technology stacks
           </p>
         </div>
@@ -43,10 +43,10 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="bg-slate-900/40 backdrop-blur-sm rounded-2xl p-8 border border-purple-700/30 hover:border-purple-500/50 transition-all duration-300 group shadow-lg hover:shadow-purple-500/20"
+              className="bg-galaxy-dark/40 backdrop-blur-sm rounded-2xl p-8 border border-galaxy-accent/30 hover:border-galaxy-accent/50 transition-all duration-300 group shadow-lg hover:shadow-galaxy-accent/20"
             >
               <div className="flex items-center mb-6">
-                <div className="text-purple-400 mr-3 group-hover:text-blue-400 transition-colors duration-300">
+                <div className="text-galaxy-accent mr-3 group-hover:text-galaxy-blue transition-colors duration-300">
                   {category.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-white">
@@ -58,7 +58,7 @@ const Skills = () => {
                 {category.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="px-3 py-1.5 bg-slate-800/60 rounded-full text-sm text-purple-100 border border-purple-600/30 hover:border-purple-500/50 hover:text-white transition-all duration-200 hover:bg-purple-800/30"
+                    className="px-3 py-1.5 bg-galaxy-primary/60 rounded-full text-sm text-galaxy-light border border-galaxy-accent/30 hover:border-galaxy-accent/50 hover:text-white transition-all duration-200 hover:bg-galaxy-accent/30"
                   >
                     {skill}
                   </span>
