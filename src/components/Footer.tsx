@@ -6,7 +6,7 @@ const Footer = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/your-profile"
+      href: "https://www.linkedin.com/in/natasha-yadav-3a486b289/"
     },
     {
       icon: <Github className="w-5 h-5" />,
@@ -16,12 +16,12 @@ const Footer = () => {
     {
       icon: <Code className="w-5 h-5" />,
       label: "LeetCode",
-      href: "https://leetcode.com/your-profile"
+      href: "https://leetcode.com/u/cosmic_enough/"
     },
     {
       icon: <Trophy className="w-5 h-5" />,
       label: "GeeksforGeeks",
-      href: "https://auth.geeksforgeeks.org/user/your-profile"
+      href: "https://www.geeksforgeeks.org/user/natashauxjh/"
     }
   ];
 

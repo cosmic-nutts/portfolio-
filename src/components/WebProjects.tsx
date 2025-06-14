@@ -37,6 +37,7 @@ const WebProjects = () => {
       features: ["Screen recording", "Audio capture", "Instant sharing", "Multiple formats", "Cloud integration"],
       icon: <Video className="w-8 h-8" />,
       image: "https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=800",
+      vercelUrl: "https://screen-recorder-nu.vercel.app/sign-in",
       githubUrl: "https://github.com/cosmic-nutts/Screen-recorder",
       type: "Desktop Application",
       progress: 85

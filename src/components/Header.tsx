@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   const handleResumeDownload = () => {
-    window.open('https://drive.google.com/file/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/view', '_blank');
+    window.open('https://drive.google.com/file/d/1q0MI2L7GddVEyRORZanCY85Mndm892Hv/view?usp=drivesdk', '_blank');
   };
 
   const navItems = [
