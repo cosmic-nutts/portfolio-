@@ -1,20 +1,31 @@
 import React, { useState } from 'react';
-import { Globe, Code, Smartphone, ExternalLink, Github, Mic, Video, Brain, Clock, CheckCircle } from 'lucide-react';
+import { Globe, Code, Smartphone, ExternalLink, Github, Mic, Video, Brain, Clock, CheckCircle, GraduationCap, Monitor } from 'lucide-react';
 
 const WebProjects = () => {
   const [activeTab, setActiveTab] = useState('completed');
 
   const completedProjects = [
     {
-      title: "Kaiwa - AI Interview Platform",
-      description: "Advanced AI-powered interview platform that conducts intelligent conversations, evaluates responses, and provides comprehensive feedback for interview preparation and assessment.",
-      technologies: ["React", "TypeScript", "AI/ML", "Node.js", "Real-time Processing"],
-      features: ["AI-powered interviews", "Real-time feedback", "Performance analytics", "Question generation", "Interview simulation"],
-      icon: <Brain className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
-      vercelUrl: "https://kaiwa-ai-interview.vercel.app",
-      githubUrl: "https://github.com/cosmic-nutts/Kaiwa",
-      type: "AI Platform"
+      title: "Brainr - AI-Powered Learning Companion",
+      description: "Full-stack SaaS Learning Management System with conversational AI tutoring, voice-enabled study experiences, and personalized learning journeys. Features secure authentication, subscription management, and custom AI tutor creation.",
+      technologies: ["Next.js", "Supabase", "Clerk", "Stripe", "Tailwind CSS", "TypeScript", "Vapi", "shadcn/ui"],
+      features: ["AI voice agents", "Secure authentication", "Subscription management", "Custom AI tutors", "Real-time data handling", "Responsive design"],
+      icon: <GraduationCap className="w-8 h-8" />,
+      image: "https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800",
+      vercelUrl: "https://brainr.vercel.app",
+      githubUrl: "https://github.com/cosmic-nutts/brainr",
+      type: "SaaS Platform"
+    },
+    {
+      title: "Snipster - Web-Based Screen Recording Tool",
+      description: "Lightweight, browser-based screen recording application for quick and seamless video capture. No downloads, extensions, or installations required - fully powered by native browser APIs with client-side video processing.",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "MediaRecorder API", "FFmpeg", "Client-side Processing"],
+      features: ["One-click recording", "Local video downloads", "No extensions needed", "Client-side processing", "Minimal responsive UI", "Browser-based experience"],
+      icon: <Monitor className="w-8 h-8" />,
+      image: "https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=800",
+      vercelUrl: "https://screen-recorder-nu.vercel.app/sign-in",
+      githubUrl: "https://github.com/cosmic-nutts/Screen-recorder",
+      type: "Web Application"
     },
     {
       title: "Portfolio Website",
@@ -31,16 +42,16 @@ const WebProjects = () => {
 
   const ongoingProjects = [
     {
-      title: "Snipster - Screen Recorder",
-      description: "Powerful screen recording and sharing application with intuitive interface, multiple recording modes, and seamless sharing capabilities for content creators and professionals.",
-      technologies: ["Electron", "JavaScript", "WebRTC", "File System API", "Media Recording"],
-      features: ["Screen recording", "Audio capture", "Instant sharing", "Multiple formats", "Cloud integration"],
-      icon: <Video className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=800",
-      vercelUrl: "https://screen-recorder-nu.vercel.app/sign-in",
-      githubUrl: "https://github.com/cosmic-nutts/Screen-recorder",
-      type: "Desktop Application",
-      progress: 85
+      title: "Kaiwa - AI Interview Platform",
+      description: "Advanced AI-powered interview platform that conducts intelligent conversations, evaluates responses, and provides comprehensive feedback for interview preparation and assessment.",
+      technologies: ["React", "TypeScript", "AI/ML", "Node.js", "Real-time Processing"],
+      features: ["AI-powered interviews", "Real-time feedback", "Performance analytics", "Question generation", "Interview simulation"],
+      icon: <Brain className="w-8 h-8" />,
+      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+      vercelUrl: "https://kaiwa-ai-interview.vercel.app",
+      githubUrl: "https://github.com/cosmic-nutts/Kaiwa",
+      type: "AI Platform",
+      progress: 90
     },
     {
       title: "E-Commerce Dashboard",
