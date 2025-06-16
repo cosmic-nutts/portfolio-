@@ -15,16 +15,6 @@ const DataProjects = () => {
       githubUrl: "https://github.com/cosmic-nutts/AtliQ-Grands---Revenue-Insights",
       vercelUrl: "https://atliq-grands-revenue.vercel.app",
       type: "Power BI Dashboard"
-    },
-    {
-      title: "Sales Performance Dashboard",
-      description: "Interactive Power BI dashboard analyzing sales trends, regional performance, and customer segmentation with real-time data updates and comprehensive KPI tracking.",
-      technologies: ["Power BI", "SQL Server", "DAX", "Power Query"],
-      features: ["Real-time data refresh", "Interactive visualizations", "Drill-down capabilities", "Mobile responsive"],
-      icon: <BarChart3 className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
-      vercelUrl: "https://sales-dashboard-demo.vercel.app",
-      type: "Power BI Dashboard"
     }
   ];
 

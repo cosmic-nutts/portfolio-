@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
           
           <div className="pt-6 border-t border-galaxy-accent/30">
-            <p className="text-galaxy-accent text-sm">
+            <p className="text-gray-300 text-sm">
               © 2025 Portfolio. Designed with passion for the infinite cosmos of possibilities.
             </p>
           </div>

@@ -26,17 +26,6 @@ const WebProjects = () => {
       vercelUrl: "https://screen-recorder-nu.vercel.app/sign-in",
       githubUrl: "https://github.com/cosmic-nutts/Screen-recorder",
       type: "Web Application"
-    },
-    {
-      title: "Portfolio Website",
-      description: "Modern, galaxy-themed portfolio website showcasing data analysis and web development projects with smooth animations, responsive design, and cosmic aesthetics.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Lucide Icons"],
-      features: ["Responsive design", "Smooth animations", "Galaxy theme", "Project showcase", "Contact integration"],
-      icon: <Globe className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      vercelUrl: "https://portfolio-galaxy.vercel.app",
-      githubUrl: "https://github.com/cosmic-nutts/portfolio-.git",
-      type: "Portfolio Site"
     }
   ];
 
@@ -52,16 +41,6 @@ const WebProjects = () => {
       githubUrl: "https://github.com/cosmic-nutts/Kaiwa",
       type: "AI Platform",
       progress: 90
-    },
-    {
-      title: "E-Commerce Dashboard",
-      description: "Comprehensive e-commerce analytics dashboard with real-time sales tracking, inventory management, and customer insights for business optimization.",
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js", "Express"],
-      features: ["Sales analytics", "Inventory tracking", "Customer insights", "Real-time updates", "Mobile responsive"],
-      icon: <Code className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      type: "Web Application",
-      progress: 70
     }
   ];
 
