@@ -18,28 +18,7 @@ const DataProjects = () => {
     }
   ];
 
-  const ongoingProjects = [
-    {
-      title: "Financial Data Analysis",
-      description: "Advanced Excel workbook with automated financial modeling, variance analysis, and predictive forecasting for strategic budget planning and financial insights.",
-      technologies: ["Excel", "VBA", "Power Pivot", "Statistical Analysis"],
-      features: ["Automated calculations", "Dynamic charts", "Scenario modeling", "Executive summary"],
-      icon: <TrendingUp className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&w=800",
-      type: "Excel Analysis",
-      progress: 75
-    },
-    {
-      title: "Customer Analytics Platform",
-      description: "Comprehensive customer behavior analysis platform using advanced SQL queries and Power BI visualizations to drive business intelligence decisions.",
-      technologies: ["SQL", "Power BI", "Python", "Data Mining"],
-      features: ["Customer segmentation", "Behavior analysis", "Predictive modeling", "Churn prediction"],
-      icon: <Database className="w-8 h-8" />,
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
-      type: "Analytics Platform",
-      progress: 60
-    }
-  ];
+  const ongoingProjects = [];
 
   const ProjectCard = ({ project, isOngoing = false }) => (
     <div className="bg-galaxy-dark/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-galaxy-accent/30 hover:border-galaxy-accent/50 transition-all duration-300 group hover:transform hover:scale-105 shadow-lg hover:shadow-galaxy-accent/20">
@@ -147,6 +126,18 @@ const DataProjects = () => {
     </div>
   );
 
+  const EmptyState = () => (
+    <div className="col-span-full text-center py-16">
+      <div className="text-galaxy-accent mb-4">
+        <Clock size={48} className="mx-auto" />
+      </div>
+      <h3 className="text-xl font-semibold text-white mb-2">No Ongoing Projects</h3>
+      <p className="text-galaxy-light">
+        Currently focusing on new data analysis initiatives. Check back soon for updates!
+      </p>
+    </div>
+  );
+
   return (
     <section id="data-projects" className="py-20 relative">
       <div className="container mx-auto px-6">
@@ -193,9 +184,11 @@ const DataProjects = () => {
             ? completedProjects.map((project, index) => (
                 <ProjectCard key={index} project={project} />
               ))
-            : ongoingProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} isOngoing={true} />
-              ))
+            : ongoingProjects.length > 0 
+              ? ongoingProjects.map((project, index) => (
+                  <ProjectCard key={index} project={project} isOngoing={true} />
+                ))
+              : <EmptyState />
           }
         </div>
       </div>
