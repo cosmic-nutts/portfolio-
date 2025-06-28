@@ -67,7 +67,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-6 inline-flex items-center space-x-2 text-galaxy-light">
             <Sparkles size={20} className="animate-pulse" />
-            <span className="text-sm uppercase tracking-wider">CS Student • Aspiring Developer</span>
+            <span className="text-sm uppercase tracking-wider">Passionate • Innovative • Results-Driven</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-galaxy-light via-galaxy-blue to-galaxy-accent bg-clip-text text-transparent animate-fade-in">
@@ -75,7 +75,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-galaxy-light mb-8 max-w-2xl mx-auto leading-relaxed">
-            Exploring the infinite cosmos of data and crafting stellar web experiences. Ready for internships and exciting opportunities!
+            Transforming complex data into actionable insights and crafting innovative digital solutions that drive meaningful impact across industries
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -83,7 +83,7 @@ const Hero = () => {
               onClick={() => document.getElementById('data-projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-3 bg-gradient-to-r from-galaxy-accent to-galaxy-secondary rounded-full font-semibold hover:from-galaxy-blue hover:to-galaxy-accent transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-galaxy-accent/25 border border-galaxy-accent/30"
             >
-              View My Projects
+              View My Work
             </button>
             <button 
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}

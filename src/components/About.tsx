@@ -5,18 +5,18 @@ const About = () => {
   const highlights = [
     {
       icon: <Rocket className="w-6 h-6" />,
-      title: "Data Enthusiast",
-      description: "Learning to transform complex datasets into actionable insights using Power BI, Excel, and SQL"
+      title: "Data Analyst",
+      description: "Transforming complex datasets into strategic insights using Power BI, Excel, and SQL to drive informed decision-making"
     },
     {
       icon: <Target className="w-6 h-6" />,
       title: "Web Developer",
-      description: "Building responsive, user-centric web applications with modern technologies and frameworks"
+      description: "Creating responsive, user-centric applications with modern frameworks and technologies for optimal user experiences"
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: "Problem Solver",
-      description: "Passionate about bridging data analysis and web development to create innovative solutions"
+      title: "Innovation Catalyst",
+      description: "Bridging analytical thinking with creative problem-solving to deliver impactful solutions across diverse domains"
     }
   ];
 
@@ -28,7 +28,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-galaxy-light max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate computer science student entering my 3rd year, combining analytical thinking with creative problem-solving. Like exploring the vast cosmos, I navigate through complex datasets and digital landscapes to create meaningful, impactful solutions.
+            I'm an enthusiastic professional who combines analytical expertise with technical innovation. With a strong foundation in electrical engineering principles and a passion for technology, I excel at translating complex challenges into elegant, data-driven solutions that create real value.
           </p>
         </div>
 
