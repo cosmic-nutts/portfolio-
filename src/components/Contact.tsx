@@ -110,7 +110,7 @@ const Contact = () => {
             Let's Connect
           </h2>
           <p className="text-xl text-galaxy-light max-w-2xl mx-auto">
-            Ready to collaborate on your next cosmic project? Let's explore the possibilities together
+            Open to internship opportunities, collaborations, and exciting projects. Let's build something amazing together!
           </p>
         </div>
 
@@ -201,7 +201,7 @@ const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-galaxy-primary/60 border border-galaxy-accent/30 rounded-lg text-white placeholder-galaxy-light/60 focus:border-galaxy-accent focus:ring-1 focus:ring-galaxy-accent transition-colors duration-200"
-                  placeholder="Project Discussion"
+                  placeholder="Internship Opportunity / Project Collaboration"
                   required
                 />
               </div>
@@ -217,7 +217,7 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-galaxy-primary/60 border border-galaxy-accent/30 rounded-lg text-white placeholder-galaxy-light/60 focus:border-galaxy-accent focus:ring-1 focus:ring-galaxy-accent resize-none transition-colors duration-200"
-                  placeholder="Tell me about your cosmic project..."
+                  placeholder="I'd love to discuss internship opportunities or collaborate on exciting projects..."
                   required
                 />
               </div>
